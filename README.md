@@ -1,15 +1,15 @@
-> The simplest possible Vue 2.0 SSR demo, using only ES5 with no build step.
+> O exemplo mais simples possível de SRR no Vue 2.0, usando somente ES5 sem processo de build.
 
 ## Usage
 
 ``` sh
-npm install # install dependencies
+npm install # instala as dependências
 ```
 
 ``` sh
-npm run dev # run server in development
+npm run dev # executa o servidor em desenvolvimento
 ```
 
 ``` sh
-npm run prod # run server in production
+npm run prod # executa o servidor em produção
 ```

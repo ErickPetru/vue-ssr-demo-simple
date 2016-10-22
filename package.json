@@ -1,6 +1,9 @@
 {
   "name": "ssr-simple",
+  "author": "Erick Petrucelli",
   "version": "1.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/ErickPetru/vue-ssr-demo-simple/",
   "scripts": {
     "cp:dev": "shx cp node_modules/vue/dist/vue.js assets/vue.js",
     "cp:prod": "shx cp node_modules/vue/dist/vue.min.js assets/vue.js",
@@ -8,8 +11,6 @@
     "dev": "npm-run-all cp:dev serve",
     "prod": "npm-run-all cp:prod serve"
   },
-  "author": "Chris Fritz",
-  "license": "MIT",
   "dependencies": {
     "express": "^4.14.0",
     "vue": "^2.0.0-rc.3",

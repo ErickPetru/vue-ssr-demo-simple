@@ -1,14 +1,14 @@
 (function () { 'use strict'
   var createApp = function () {
-    // ---------------------
-    // BEGIN NORMAL APP CODE
-    // ---------------------
+    // ------------------------------
+    // INÍCIO DO CÓDIGO NORMAL DO APP
+    // ------------------------------
 
-    // Main Vue instance must be returned and have a root
-    // node with the id "app", so that the client-side
-    // version can take over once it loads.
+    // A instância Vue principal deve ser retornada e possuir
+    // um nó principal com o id "app", para que a versão client-side
+    // possa tomar conta dele assim que carregar.
     return new Vue({
-      template: '<div id="app">You have been here for {{ counter }} seconds.</div>',
+      template: '<div id="app">Você esteve aqui por {{ counter }}s.</div>',
       data: {
         counter: 0
       },
@@ -20,9 +20,9 @@
       }
     })
 
-    // -------------------
-    // END NORMAL APP CODE
-    // -------------------
+    // -------------------------------
+    // TÉRMINO DO CÓDIGO NORMAL DO APP
+    // -------------------------------
   }
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = createApp
